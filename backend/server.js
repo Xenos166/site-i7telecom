@@ -7,8 +7,8 @@ app.use(express.raw({ type: 'application/octet-stream', limit: '100mb' }));
 
 // For download, serve a large file
 app.get('/download', (req, res) => {
-  // Create a 50MB buffer
-  const size = 50 * 1024 * 1024; // 50MB
+  // Create a 10MB buffer
+  const size = 10 * 1024 * 1024; // 10MB
   const buffer = Buffer.alloc(size, 'a'); // fill with 'a'
   res.set({
     'Content-Type': 'application/octet-stream',
@@ -25,7 +25,7 @@ app.post('/upload', (req, res) => {
   const endTime = Date.now();
   const duration = (endTime - startTime) / 1000;
   const speed = (receivedBytes * 8 / duration / 1000000).toFixed(2); // Mbps
-  res.json({ speed: speed + ' Mbps' });
+    res.json({ speed: speed });
 });
 
 app.listen(port, () => {
