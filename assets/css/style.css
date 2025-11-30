@@ -489,7 +489,7 @@ p {
 }
 
 .navbar-brand img {
-  width: 300px;
+  width: 200px;
 }
 
 .navbar-toggler {
@@ -761,7 +761,7 @@ p {
 }
 
 .sticky .navbar-brand img {
-  width: 300px;
+  width: 200px;
 }
 
 /*===== HEADER HERO =====*/
@@ -1084,6 +1084,180 @@ p {
 
 .single_features.features_3 .features_icon i {
   background-color: #2e8b4a;
+}
+
+/* Custom classes for inline styles */
+.sobre-logo {
+  width: 400px;
+  display: block;
+  margin: 0 auto 20px;
+}
+
+.features-section-title {
+  margin-top: 200px;
+}
+
+.features-description {
+  max-width: none;
+  margin-top: 20px;
+}
+
+.pricing-description {
+  max-width: none;
+  margin-top: 20px;
+}
+
+.central-description {
+  max-width: none;
+  margin-top: 20px;
+}
+
+.contact-section {
+  margin-top: 150px;
+  padding-top: 50px !important;
+}
+
+.contact-description {
+  max-width: none;
+  margin-top: 20px;
+}
+
+.contact-details-padding {
+  padding: 20px;
+}
+
+.contact-h5 {
+  margin-bottom: 20px;
+}
+
+.footer-custom-p {
+  max-width: none;
+  white-space: nowrap;
+  text-align: center;
+}
+
+/*===========================
+    TESTE VELOCIDADE css 
+===========================*/
+
+/* Hero Section */
+.speed-hero {
+    background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+    padding: 140px 0;
+    position: relative;
+    overflow: hidden;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.speed-hero .shape {
+    position: absolute;
+    opacity: 0.1;
+}
+
+.speed-hero .shape-1 {
+    top: 0;
+    left: 0;
+}
+
+.speed-hero .shape-2 {
+    top: 50%;
+    right: 0;
+}
+
+.speed-hero .shape-3 {
+    bottom: 0;
+    left: 50%;
+}
+
+/* Icons */
+.hero-icon {
+    font-size: 4rem;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.result-icon {
+    font-size: 5rem;
+    color: #28a745;
+    margin-bottom: 10px;
+}
+
+/* Images */
+.speed-test-image {
+    width: 20%;
+    height: auto;
+}
+
+/* Buttons */
+.speed-test-btn {
+    background: white;
+    color: #28a745;
+    border: 2px solid #28a745;
+}
+
+.restart-btn {
+    background: #28a745 !important;
+    color: white !important;
+    border: 2px solid #28a745 !important;
+}
+
+/* Results */
+.speed-result {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #28a745;
+    margin: 20px 0;
+}
+
+.result-item {
+    background: rgba(40, 167, 69, 0.1);
+    border-radius: 15px;
+    border: 2px solid #28a745;
+}
+
+.results-title {
+    color: #28a745;
+    font-weight: bold;
+}
+
+.ip-text {
+    color: #666;
+}
+
+/* Test Card */
+.test-card {
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    margin: 30px 0;
+}
+
+/* Progress */
+.progress {
+    height: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.progress-bar {
+    background: linear-gradient(45deg, #28a745, #20c997);
+    border-radius: 10px;
+}
+
+/* Footer */
+.footer-section {
+    background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+    padding: 40px 0;
+}
+
+.footer-text {
+    max-width: none;
+    white-space: nowrap;
+    text-align: center;
+    color: white !important;
 }
 
 /*===========================

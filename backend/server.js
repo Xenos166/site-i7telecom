@@ -3,12 +3,12 @@ const app = express();
 const port = 3000;
 
 // Middleware to parse raw body for upload
-app.use(express.raw({ type: 'application/octet-stream', limit: '100mb' }));
+app.use(express.raw({ type: 'application/octet-stream', limit: '350mb' }));
 
 // For download, serve a large file
 app.get('/download', (req, res) => {
-  // Create a 10MB buffer
-  const size = 10 * 1024 * 1024; // 10MB
+  const sizeMB = parseInt(req.query.size) || 100;
+  const size = sizeMB * 1024 * 1024;
   const buffer = Buffer.alloc(size, 'a'); // fill with 'a'
   res.set({
     'Content-Type': 'application/octet-stream',
