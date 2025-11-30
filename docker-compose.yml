@@ -1,5 +1,6 @@
 services:
   web:
     build: .
+    container_name: site-i7telecom
     ports:
       - "7574:80"
